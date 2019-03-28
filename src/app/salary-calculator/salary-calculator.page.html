@@ -1,0 +1,132 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>Calculador de Salarios</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content text-center>
+
+  <h1>Introduzca el salario por día que se le asignará a su trabajador por día</h1>
+  <ion-card>
+    <ion-item>
+        <ion-input text-center name="aguinaldo" type="text" value="15"></ion-input>
+    </ion-item>
+  </ion-card>
+  <ion-item-divider></ion-item-divider>
+
+  <h1>Datos Generales</h1>
+  <ion-grid>
+    <ion-row>
+      <ion-col>
+        <div>
+          Año de cálculo
+        </div>
+      </ion-col>
+      <ion-col>
+        <div>
+          Días de nómina al mes
+        </div>
+      </ion-col>
+    </ion-row>
+    <ion-row>
+      <ion-col>
+        <div>
+          2018
+        </div>
+      </ion-col>
+      <ion-col>
+        <div>
+          30
+        </div>
+      </ion-col>
+    </ion-row>
+    <ion-row>
+        <ion-col>
+          <div>
+            Periodo IMSS-Infonavit
+          </div>
+        </ion-col>
+        <ion-col>
+          <div>
+            % Impuesto sobre nómina
+          </div>
+        </ion-col>
+    </ion-row>
+    <ion-row>
+      <ion-col>
+        <div>
+          30
+        </div>
+      </ion-col>
+      <ion-col>
+        <div>
+          2
+        </div>
+      </ion-col>
+    </ion-row>
+    <ion-row>
+      <ion-col>
+        <div> Riesgo de trabajo </div>
+      </ion-col>
+    </ion-row>
+    <ion-radio-group>
+      <ion-row>
+        <ion-col>
+          <ion-item lines="none">
+            <ion-radio value="minimo" checked></ion-radio>
+            <ion-label>Mínimo</ion-label>
+          </ion-item>
+        </ion-col>
+
+        <ion-col>
+          <ion-item lines="none" class="ion-text-center">
+            <ion-radio value="bajo" checked></ion-radio>
+            <ion-label>Bajo</ion-label>  
+          </ion-item>
+        </ion-col>
+        <ion-col>
+          <ion-item lines="none">
+            <ion-radio value="medio"></ion-radio>
+            <ion-label>Medio</ion-label>
+          </ion-item>
+        </ion-col>
+      </ion-row>
+
+    </ion-radio-group>
+  </ion-grid>
+
+  <ion-item-divider></ion-item-divider>
+
+  <h1>Prestaciones</h1>
+  <ion-grid class="ion-justify-content-center">
+    <ion-row>
+      <ion-col>
+        <ion-item class="ion-text-center"> 
+          <ion-label position="floating">Días de aguinaldo</ion-label>
+          <ion-input text-center name="aguinaldo" type="text" value="15"></ion-input>
+        </ion-item>
+      </ion-col>
+      <ion-col>
+        <ion-item class="ion-text-center">
+          <ion-label position="floating">Días de vacaciones</ion-label>
+          <ion-input text-center name="vacaciones" type="number" value="6"></ion-input>
+        </ion-item>
+      </ion-col>
+      <ion-col>
+        <ion-item class="ion-text-center">
+          <ion-label position="floating">% Prima vacacional</ion-label>
+          <ion-input text-center name="prima" type="number" value="25" readonly></ion-input>
+        </ion-item>
+      </ion-col>
+    </ion-row>
+  </ion-grid>
+
+
+
+  <ion-item-divider></ion-item-divider>
+  <ion-button color="primary">CALCULAR</ion-button>
+
+</ion-content>
+
+
+
