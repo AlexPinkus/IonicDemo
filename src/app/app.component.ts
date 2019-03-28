@@ -19,6 +19,16 @@ export class AppComponent {
       title: 'List',
       url: '/list',
       icon: 'list'
+    },
+    {
+      title: 'Calculadora',
+      url: '/salary-calculator',
+      icon: 'list'
+    },
+    {
+      title: 'Cotizaciones',
+      url: '/quotations',
+      icon: 'list'
     }
   ];
 

@@ -14,7 +14,14 @@ const routes: Routes = [
   {
     path: 'list',
     loadChildren: './list/list.module#ListPageModule'
-  }
+  },
+  {
+    path: 'salary-calculator',
+    loadChildren: './salary-calculator/salary-calculator.module#SalaryCalculatorPageModule'
+  },
+  { path: 'quotations',
+    loadChildren: './quotations/quotations.module#QuotationsPageModule' 
+  },
 ];
 
 @NgModule({
