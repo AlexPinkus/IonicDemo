@@ -16,11 +16,6 @@ export class AppComponent {
       icon: 'home'
     },
     {
-      title: 'List',
-      url: '/list',
-      icon: 'list'
-    },
-    {
       title: 'Calculadora',
       url: '/salary-calculator',
       icon: 'calculator'
