@@ -9,9 +9,14 @@ import { StatusBar } from '@ionic-native/status-bar/ngx';
 import { AppComponent } from './app.component';
 import { AppRoutingModule } from './app-routing.module';
 
+import { PopoverComponent } from './components/popover/popover.component';
+import { ConceptsPopoverComponent } from './components/concepts-popover/concepts-popover.component';
+
+
+
 @NgModule({
-  declarations: [AppComponent],
-  entryComponents: [],
+  declarations: [AppComponent, PopoverComponent, ConceptsPopoverComponent],
+  entryComponents: [PopoverComponent, ConceptsPopoverComponent],
   imports: [
     BrowserModule,
     IonicModule.forRoot(),
