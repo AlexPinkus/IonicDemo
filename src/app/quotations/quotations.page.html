@@ -1,9 +1,28 @@
 <ion-header>
   <ion-toolbar>
-    <ion-title>quotations</ion-title>
+    <ion-title>Cotizaciones</ion-title>
   </ion-toolbar>
 </ion-header>
 
 <ion-content>
+  <ion-button [routerLink]="['/concepts']">
+    ADMINISTRAR MIS CONCEPTOS
+  </ion-button>
 
+  <ion-list>
+    <ion-item *ngFor="let quotation of quotations">
+      
+      <ion-label (click)="presentPopover($event, quotation)">
+        <h1>{{ quotation.name }}</h1>
+        <h2>{{ quotation.name }}</h2>
+        <h2>{{ quotation.createdOn | date:'shortDate' }}</h2>
+      </ion-label>
+    </ion-item>
+  </ion-list>
+
+  <ion-fab vertical="bottom" horizontal="end" slot="fixed">
+    <ion-fab-button>
+      <ion-icon name="add"></ion-icon>
+    </ion-fab-button>
+  </ion-fab>
 </ion-content>
