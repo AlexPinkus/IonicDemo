@@ -3,9 +3,9 @@ import { ToastController } from '@ionic/angular';
 import { PopoverController } from '@ionic/angular';
 
 
-import { Concept } from '../models/Concept';
+import { Concept } from '../../models/Concept';
 import { AlertController } from '@ionic/angular';
-import { ConceptsPopoverComponent } from '../components/concepts-popover/concepts-popover.component';
+import { ConceptsPopoverComponent } from '../../components/concepts-popover/concepts-popover.component';
 
 
 

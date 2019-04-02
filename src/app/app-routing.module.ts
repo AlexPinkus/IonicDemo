@@ -9,23 +9,23 @@ const routes: Routes = [
   },
   {
     path: 'home',
-    loadChildren: './home/home.module#HomePageModule'
+    loadChildren: './pages/home/home.module#HomePageModule'
   },
   {
     path: 'list',
-    loadChildren: './list/list.module#ListPageModule'
+    loadChildren: './pages/list/list.module#ListPageModule'
   },
   {
     path: 'salary-calculator',
-    loadChildren: './salary-calculator/salary-calculator.module#SalaryCalculatorPageModule'
+    loadChildren: './pages/salary-calculator/salary-calculator.module#SalaryCalculatorPageModule'
   },
   {
     path: 'quotations',
-    loadChildren: './quotations/quotations.module#QuotationsPageModule' 
+    loadChildren: './pages/quotations/quotations.module#QuotationsPageModule' 
   },
   {
     path: 'concepts',
-    loadChildren: './concepts/concepts.module#ConceptsPageModule' 
+    loadChildren: './pages/concepts/concepts.module#ConceptsPageModule' 
   },
 ];
 

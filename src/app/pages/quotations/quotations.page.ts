@@ -1,7 +1,7 @@
 import { Component, OnInit } from '@angular/core';
-import { Quotation } from '../models/Quotation';
+import { Quotation } from '../../models/Quotation';
 import { PopoverController } from '@ionic/angular';
-import { PopoverComponent } from '../components/popover/popover.component';
+import { PopoverComponent } from '../../components/popover/popover.component';
 @Component({
   selector: 'app-quotations',
   templateUrl: './quotations.page.html',
