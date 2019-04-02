@@ -23,12 +23,12 @@ export class AppComponent {
     {
       title: 'Calculadora',
       url: '/salary-calculator',
-      icon: 'list'
+      icon: 'calculator'
     },
     {
       title: 'Cotizaciones',
       url: '/quotations',
-      icon: 'list'
+      icon: 'book'
     }
   ];
 

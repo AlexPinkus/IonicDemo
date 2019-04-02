@@ -21,11 +21,11 @@ const routes: Routes = [
   },
   {
     path: 'quotations',
-    loadChildren: './pages/quotations/quotations.module#QuotationsPageModule' 
+    loadChildren: './pages/quotations/quotations.module#QuotationsPageModule'
   },
   {
     path: 'concepts',
-    loadChildren: './pages/concepts/concepts.module#ConceptsPageModule' 
+    loadChildren: './pages/concepts/concepts.module#ConceptsPageModule'
   },
 ];
 
