@@ -19,8 +19,13 @@ const routes: Routes = [
     path: 'salary-calculator',
     loadChildren: './salary-calculator/salary-calculator.module#SalaryCalculatorPageModule'
   },
-  { path: 'quotations',
+  {
+    path: 'quotations',
     loadChildren: './quotations/quotations.module#QuotationsPageModule' 
+  },
+  {
+    path: 'concepts',
+    loadChildren: './concepts/concepts.module#ConceptsPageModule' 
   },
 ];
 
